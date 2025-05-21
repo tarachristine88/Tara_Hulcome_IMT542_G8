@@ -1,26 +1,26 @@
 # **G8: Improve access methodology of existing information: 'The Diary Project' API**
 
-## **About**
+## **1. About**
 
 As part of ‘The Diary Project’, my information structure will host a structured dataset of personal (dummy) diary entries and make it accessible via a simple web-based API. 
 
-### **Use** 
+### **1.1. Use** 
 
 Users will be able to filter the diary entries (i.e., by year, country, theme), enabling them to analyze over 22 years of data in new and interesting ways.
 
-### **Audience**
+### **1.2. Audience**
 
 In the pilot phase, the audience will be strictly limited to the diary’s owner and project developer (i.e., myself). Future iterations of ‘The Diary Project’ may see the audience expand to include other authorized users, such as family members.
  
-### **Access**
+### **1.3. Access**
 
 The diary data will be accessible to the user on their personal device via a public web link and will be read-only, served over HTTPS using Flask and nGrok.
 
-## **Methodology**
+## **2. Methodology**
 
 -	I created 300 dummy diary entries using a large language model (ChatGPT). I decided not to use my authentic personal diary entries to maintain information security and data privacy while testing the API development process.
 
--	These dummy diary entries were structured into JSON format and saved as ‘tara_diary_examples.json’.
+-	These dummy diary entries were structured into JSON format (see example in Section 5) and saved as ‘tara_diary_examples.json’.
 
 -	I prompted the large language model (ChatGPT) to tag each entry with relevant metadata such as date, year, country, topics, people mentioned, and sensitivity level. I also included an entry_text field containing placeholder text. 
 
@@ -30,7 +30,7 @@ The diary data will be accessible to the user on their personal device via a pub
 
 -	In the initial pilot phase, the JSON file structure will be updated manually as new entries are created or tagged.
 
-## **Access**
+## **3. Access**
 
 
 ### **Step 1: Retrieve public API URL**
@@ -58,7 +58,7 @@ The diary data will be accessible to the user on their personal device via a pub
 
 -	The API only supports GET requests. This means you can retrieve and save the JSON data for your own use, but you cannot modify it.
 
-## **Structure**
+## **4. Structure**
 
 Each dummy diary entry is a structured JSON object with the following fields:
 
@@ -78,7 +78,7 @@ Each dummy diary entry is a structured JSON object with the following fields:
 | “audit_log” | String | An information security feature that maintains an audit trail, logging attempts by unauthorized users to gain access. |
 
 
-## **Example JSON entry**
+## **5. Example JSON entry**
 
 {
     "entry_id": "2002-11-16_001",
