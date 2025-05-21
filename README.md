@@ -86,7 +86,7 @@ Each dummy diary entry is a structured JSON object with the following fields:
 
 ### **5.2. Example request and response** 
 
--	This shows a request for all (dummy) diary entries that were written in the USA.
+-	This example shows a request for all (dummy) diary entries that were written in the USA.
 -	To access, the user appended the URL as follows: https:// ee80-193-37-33-62.ngrok-free.app/entries?country=USA
 -	The response is structured as a block of JSON data containing ‘country’, ‘entry_text’ and ‘place’ fields (where "country": "USA").
 
