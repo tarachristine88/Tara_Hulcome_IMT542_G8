@@ -91,4 +91,3 @@ Each dummy diary entry is a structured JSON object with the following fields:
 -	The response is structured as a block of JSON data containing ‘country’, ‘entry_text’ and ‘place’ fields (where "country": "USA").
 
 ![image](https://github.com/user-attachments/assets/6066fbfb-5935-49cd-adc2-da2412b564bd)
-
