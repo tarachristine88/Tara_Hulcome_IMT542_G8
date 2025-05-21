@@ -6,7 +6,7 @@ As part of ‘The Diary Project’, my information structure will host a structu
 
 ### **1.1. Use** 
 
-Users will be able to filter the diary entries (initially by country - but future uses will extend to themes, years and other filters), enabling them to analyze over 22 years of data in new and interesting ways.
+Users will be able to filter the diary entries (initially by country - but future uses will extend to themes, years and a variety of other filters), enabling them to analyze over 22 years of data in new and interesting ways.
 
 ### **1.2. Audience**
 
