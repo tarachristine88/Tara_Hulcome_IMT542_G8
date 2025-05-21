@@ -80,7 +80,7 @@ Each dummy diary entry is a structured JSON object with the following fields:
 
 ## **Example JSON entry**
 
-  {
+{
     "entry_id": "2002-11-16_001",
     "date": "2002-11-16",
     "year": 2002,
@@ -88,16 +88,16 @@ Each dummy diary entry is a structured JSON object with the following fields:
     "country": "USA",
     "place": "travel",
     "entry_text": "Sample diary text entry number 1.",
-    "topics": 
-    [ "relationships"
+    "topics": [
+        "relationships"
     ],
     "people_mentioned": [
-      "Dad"
+        "Dad"
     ],
     "tags": [
-      "growth"
+        "growth"
     ],
     "ocr_confidence": 0.98,
     "sensitivity": "personal",
     "audit_log": []
-  },
+}
