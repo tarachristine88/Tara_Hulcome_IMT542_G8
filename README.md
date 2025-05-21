@@ -101,3 +101,4 @@ Each dummy diary entry is a structured JSON object with the following fields:
     "sensitivity": "personal",
     "audit_log": []
 }
+![image](https://github.com/user-attachments/assets/e01fb91b-f591-428d-ab5a-6eeb13b95b09)
