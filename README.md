@@ -62,8 +62,8 @@ The diary data will be accessible to the user on their personal device via a pub
 
 Each dummy diary entry is a structured JSON object with the following fields:
 
-| **Field** | **Type** | ** Description** |
-| :----------- | :----------: | ---------------------: |
+| **Field** | **Type** | **Description** |
+| :----------- | :----------: | :---------------------: |
 | "entry_id" | String | A unique identifier assigned to each diary entry in ‘YYYY-MM-DD-###’ format |
 | "date"      | String | Date of the entry in ‘YYYY-MM-DD’ format |
 | "year"      | Number | Year of the entry in ‘YYYY’ format |
@@ -88,8 +88,8 @@ Each dummy diary entry is a structured JSON object with the following fields:
     "country": "USA",
     "place": "travel",
     "entry_text": "Sample diary text entry number 1.",
-    "topics": [
-      "relationships"
+    "topics": 
+    [ "relationships"
     ],
     "people_mentioned": [
       "Dad"
