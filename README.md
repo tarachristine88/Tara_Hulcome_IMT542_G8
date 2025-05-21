@@ -1,4 +1,4 @@
-# **G8: Improve access methodology of existing information: The Diary Project API**
+# **G8: Improve access methodology of existing information: 'The Diary Project' API**
 
 ## **About**
 
