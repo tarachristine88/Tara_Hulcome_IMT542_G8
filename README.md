@@ -78,29 +78,17 @@ Each dummy diary entry is a structured JSON object with the following fields:
 | “audit_log” | String | An information security feature that maintains an audit trail, logging attempts by unauthorized users to gain access. |
 
 
-## **5. Example JSON entry**
+## **5. Examples**
 
-
-{
-    "entry_id": "2002-11-16_001",
-    "date": "2002-11-16",
-    "year": 2002,
-    "time": "20:47",
-    "country": "USA",
-    "place": "travel",
-    "entry_text": "Sample diary text entry number 1.",
-    "topics": [
-        "relationships"
-    ],
-    "people_mentioned": [
-        "Dad"
-    ],
-    "tags": [
-        "growth"
-    ],
-    "ocr_confidence": 0.98,
-    "sensitivity": "personal",
-    "audit_log": []
-}
+### **5.1. Example JSON entry** 
 
 ![image](https://github.com/user-attachments/assets/e01fb91b-f591-428d-ab5a-6eeb13b95b09)
+
+### **5.2. Example request and response** 
+
+-	This shows a request for all diary entries that were written in the USA.
+-	The request is shown in the URL as https:// ee80-193-37-33-62.ngrok-free.app/entries?country=USA
+-	The response is a block of structured JSON data containing ‘country’, ‘entry_text’ and ‘place’ fields (where "country": "USA")
+
+![image](https://github.com/user-attachments/assets/6066fbfb-5935-49cd-adc2-da2412b564bd)
+
